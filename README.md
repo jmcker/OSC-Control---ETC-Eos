@@ -86,4 +86,4 @@ A full list of the available Eos key messages is included as a PDF in the reposi
 
 ### Contact ###
 
-Jack McKernan [jmcker@outlook.com](mailto:jmcker@outlook.com)
+Jack McKernan ([jmcker@outlook.com](mailto:jmcker@outlook.com))

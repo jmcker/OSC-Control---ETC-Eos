@@ -51,8 +51,8 @@ Note: To edit the batch file in the future, right click and select 'Edit'.
 ## Command Descriptions ##
 
 ### connect.py ###
-Creates an OSC client, connects to it, and closes the connection. The connection takes awhile to open the first time it is attempted.
-This latency was detrimental to calls where timing was essential. Triggering connect.py shortly before needing to trigger a different command removes the latency.
+Creates an OSC client, connects to it, and closes the connection. The OSC module takes about a second and a half to import.
+This latency was detrimental to calls where timing was essential. Triggering connect.py shortly before needing to trigger a different command reduced (in most cases removed) the latency. This needs to be looked into...
 
 ### go.py ###
 Triggers the main go button on the console.

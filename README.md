@@ -12,7 +12,7 @@ A collection of tools for controlling ETC's Eos family of lighting consoles.
 ```python
 python xxxxxxx.py target_ip listening_port
 ------------------------------------------------------
-python xxxxxxx.py 192.168.1.8 3032
+python go.py 192.168.1.8 3032
 ```
 3. Executing with no arguments will use the default IP and port: 192.168.1.8 [3032]
 4. To change the default host or port, open the script in a text editor and change the assignments to 'HOST' and 'PORT' as needed.
@@ -25,7 +25,7 @@ def main(args):
     # Default host and port
     HOST = '192.168.1.8'
     PORT = 3032
-	
+
 	if len(args) == 2:
 
 ...
@@ -63,7 +63,7 @@ Triggers the main go button on the console.
 2. Open *command_name*.py in a text editor
 3. Change the message to the desired message
 
-A full list of the available Eos key messages is included as a PDF in the repository.
+A full list of the available Eos key messages is included as a PDF in the repository [here](reference/Eos%20OSC%20Keys.pdf).
 
 ```python
 ...
@@ -72,7 +72,7 @@ A full list of the available Eos key messages is included as a PDF in the reposi
     client.connect((HOST, PORT))
 
     # Desired message
-    msg = OSCMessage("xxxxxxx");
+    msg = OSCMessage("/eos/key/xxxxxxx");
     client.send(msg);
     client.close();
 

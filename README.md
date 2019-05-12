@@ -3,8 +3,8 @@
 A collection of tools for controlling ETC's Eos family of lighting consoles.
 
 ### System Requirements ###
-Python 2.7 (available [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14rc1.amd64.msi) for 64-bit Windows or [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14rc1.msi) for 32-bit Windows)
-[pyOSC](https://github.com/ptone/pyosc)
+- Python 2.7 (available [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14rc1.amd64.msi) for 64-bit Windows or [here](https://www.python.org/ftp/python/2.7.14/python-2.7.14rc1.msi) for 32-bit Windows)
+- [pyOSC](https://github.com/ptone/pyosc)
 
 ### Setup ###
 1. Install Python and the pyOSC library (Download the repository and run the setup.py file in the root folder).

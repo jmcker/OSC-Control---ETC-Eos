@@ -14,7 +14,7 @@ python xxxxxxx.py target_ip listening_port
 ------------------------------------------------------
 python go.py 192.168.1.8 3032
 ```
-3. Executing with no arguments will use the default IP and port: 192.168.1.8 [3032]
+3. Executing with no arguments will use the default IP and port: ```192.168.1.8 [3032]```
 4. To change the default host or port, open the script in a text editor and change the assignments to 'HOST' and 'PORT' as needed.
 ```python
 import sys
@@ -64,6 +64,7 @@ Triggers the main go button on the console.
 3. Change the message to the desired message
 
 A full list of the available Eos key messages is included as a PDF in the repository [here](reference/Eos%20OSC%20Keys.pdf).
+For a more in-depth explanation of Eos show control capabilities, see Pages 47+ of [this](reference/EosFamily_ShowControl_UserGuide_RevC.pdf) document for more details.
 
 ```python
 ...

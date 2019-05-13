@@ -4,7 +4,7 @@ import sys
 try:
     from OSC import OSCClient, OSCMessage
 except:
-    print "Could not find pyOSC. Please see the documentation or install using: pip install --user pyOSC"
+    print "Could not find pyOSC. Please see the documentation or install using: python2 -m pip --user install pyOSC"
     exit()
 
 def main(args):

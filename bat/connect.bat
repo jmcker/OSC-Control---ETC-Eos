@@ -1,1 +1,1 @@
-python2 ../send.py /eos/key/go_0 192.168.1.208 1024
+python2 ../send.py preload 192.168.1.208 1024
